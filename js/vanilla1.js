@@ -190,39 +190,39 @@ una constante que sera del 21%*/
 // %: módulo, resto de la división entre operando1 y operando2.
 
 
-let num1 = parseInt(prompt("Introduce un número"))
-let num2 = parseInt(prompt("Introduce otro número"))
+// let num1 = parseInt(prompt("Introduce un número"))
+// let num2 = parseInt(prompt("Introduce otro número"))
 
-let operacion = prompt("Introduce signo aritmético; +: suma los dos operandos. -: resta los operandos. *: multiplica los operandos. /: divide los operandos. ^: 1º operando como base y 2º como exponente. %: módulo, resto de la división entre operando1 y operando2").toLowerCase();
+// let operacion = prompt("Introduce signo aritmético; +: suma los dos operandos. -: resta los operandos. *: multiplica los operandos. /: divide los operandos. ^: 1º operando como base y 2º como exponente. %: módulo, resto de la división entre operando1 y operando2").toLowerCase();
 
-switch(operacion){
-    case "+":
-    case "sumar":
-        console.log(num1 + num2)
-    break;
+// switch(operacion){
+//     case "+":
+//     case "sumar":
+//         console.log(num1 + num2)
+//     break;
 
-    case "-":
-    case "restar":
-        console.log(num1 - num2)
-    break;
+//     case "-":
+//     case "restar":
+//         console.log(num1 - num2)
+//     break;
 
-    case "*":
-    case "multiplicar":
-        console.log(num1 * num2)
-    break;
+//     case "*":
+//     case "multiplicar":
+//         console.log(num1 * num2)
+//     break;
 
-    case "/":
-    case "dividir":
-        console.log((Math.round(num1 / num2)))
-    break;
+//     case "/":
+//     case "dividir":
+//         console.log((Math.round(num1 / num2)))
+//     break;
 
-    case "^":
-    case "elevar a":
-        console.log(Math.pow(num1, num2))
-    break;
+//     case "^":
+//     case "elevar a":
+//         console.log(Math.pow(num1, num2))
+//     break;
 
-    case "%":
-    case "resto de su división":
-        console.log(num1 % num2)
-    break;
-}
+//     case "%":
+//     case "resto de su división":
+//         console.log(num1 % num2)
+//     break;
+// }
