@@ -153,24 +153,76 @@ una constante que sera del 21%*/
 // aunque le queden intentos)
 
 
-const password = "cu4lqui3r4";
+// const password = "cu4lqui3r4";
 
-let intentos = 2
+// let intentos = 2
 
-while (intentos >= 0){
+// while (intentos >= 0){
 
-    let intPass = prompt("Introduce la contraseña.")
+//     let intPass = prompt("Introduce la contraseña.")
 
-    if(intPass === password){
-        console.log("Contraseña correcta")
-        intentos = 0
-    }else{
-        intentos > 0 ? (
-            console.log(`Contraseña incorrecta, quedan ${intentos} intentos`)
-            ) : (console.log(`Contraseña incorrecta, inténtelo de nuevo más tarde`)
-            ) ;
-    }; 
+//     if(intPass === password){
+//         console.log("Contraseña correcta")
+//         intentos = 0
+//     }else{
+//         intentos > 0 ? (
+//             console.log(`Contraseña incorrecta, quedan ${intentos} intentos`)
+//             ) : (console.log(`Contraseña incorrecta, inténtelo de nuevo más tarde`)
+//             ) ;
+//     }; 
 
-    intentos--;
+//     intentos--;
+// }
+
+
+// // ---------------------------------------------------------------------
+
+
+// 13 --> Crea una aplicación llamada CalculadoraInversa, nos pedirá 2 operandos (int) y
+// un signo aritmético (String), según este último se realizará la operación
+// correspondiente. Al final mostrara el resultado en un cuadro de dialogo.
+// Los signos aritméticos disponibles son:
+// +: suma los dos operandos.
+// -: resta los operandos.
+// *: multiplica los operandos.
+// /: divide los operandos, este debe dar un resultado con decimales (double)
+// ^: 1º operando como base y 2º como exponente.
+// %: módulo, resto de la división entre operando1 y operando2.
+
+
+let num1 = parseInt(prompt("Introduce un número"))
+let num2 = parseInt(prompt("Introduce otro número"))
+
+let operacion = prompt("Introduce signo aritmético; +: suma los dos operandos. -: resta los operandos. *: multiplica los operandos. /: divide los operandos. ^: 1º operando como base y 2º como exponente. %: módulo, resto de la división entre operando1 y operando2").toLowerCase();
+
+switch(operacion){
+    case "+":
+    case "sumar":
+        console.log(num1 + num2)
+    break;
+
+    case "-":
+    case "restar":
+        console.log(num1 - num2)
+    break;
+
+    case "*":
+    case "multiplicar":
+        console.log(num1 * num2)
+    break;
+
+    case "/":
+    case "dividir":
+        console.log((Math.round(num1 / num2)))
+    break;
+
+    case "^":
+    case "elevar a":
+        console.log(Math.pow(num1, num2))
+    break;
+
+    case "%":
+    case "resto de su división":
+        console.log(num1 % num2)
+    break;
 }
-
