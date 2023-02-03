@@ -213,7 +213,7 @@ una constante que sera del 21%*/
 
 //     case "/":
 //     case "dividir":
-//         console.log((Math.round(num1 / num2)))
+//         console.log((parseFloat(num1 / num2)))
 //     break;
 
 //     case "^":
