@@ -100,7 +100,7 @@
 // entre 2 de nuevo hasta que no se pueda dividir más, el resto que obtengamos de
 // cada división formara el número binario, de abajo a arriba.
 
-//     let numDecimal = parseInt(prompt("Introduce un número en base decimal"))
+// let numDecimal = parseInt(prompt("Introduce un número en base decimal"))
 
 
 // const Binary = (num) => {
