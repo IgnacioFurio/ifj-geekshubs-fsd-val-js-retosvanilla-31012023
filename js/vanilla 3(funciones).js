@@ -133,9 +133,49 @@
 // 7. Crea una función que, dada una frase, convierta las A en 4, las E en 3, las I en 1 y las O en 0.
 
 
+
+// const Conversor = (frase) => {
+
+//     let cambioA = frase.replaceAll("a","4");
+//     frase = cambioA;
+
+//     let cambioE = frase.replaceAll("e", "3");
+//     frase = cambioE;
+
+//     let cambioI = frase.replaceAll("i", "1");
+//     frase = cambioI
+
+//     let cambioO = frase.replaceAll("o", "0");
+//     frase = cambioO
+
+//     return frase;
+
+// };
+
+// let frase = prompt("Introduce una frase.").toLowerCase()
+
+// let resultado = Conversor(frase)
+
+// console.log(resultado)
+
+
+
 //////////////////////////////////////////////////////////////////////////////
 
 // 8. Crea una función que, dada una frase, cuente la cantidad de una letra en la misma. Por
 // ejemplo, dada la palabra “javascript” y la letra “a”, debería devolver un 2
 
+let frase = prompt("Introduce una frase")
+let letra = prompt("Introduce una letra, el programa contará las veces que se repite esta letra en la frase.")
 
+
+// const AnalizarLetra = (frase, letra) => {
+
+//     let cantidad = frase.length()
+
+
+
+// };
+
+// let resultado = AnalizarLetra(frase, letra)
+// console.log(resultado)
